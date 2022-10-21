@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Paimon Wish to UIGF Convertor</title>
+    <meta
+      name="description"
+      content="A web App that converts Genshin wish history from Paimon.moe format to UIGF format."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <h2>Paimon Wish to UIGF Convertor</h2>
+    <div>
+      <label for="file">Choose file to upload</label>
+      <input type="file" id="file" name="file" accept=".json" />
+    </div>
+    <div>
+      <button id="submit">Submit</button>
+    </div>
+
+    <div id="output"></div>
+
+    <video id="demo" src="./asset/video/demo.mp4" autoplay loop muted preload="auto"></video>
+
+    <script src="./js/main.js" async defer></script>
+  </body>
+</html>
