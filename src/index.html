@@ -9,6 +9,18 @@
       content="A web App that converts Genshin wish history from Paimon.moe format to UIGF format."
     />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    {{#if GAID}}
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ GAID }}"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "{{ GAID }}");
+    </script>
+    {{/if}}
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
@@ -23,7 +35,9 @@
 
     <div id="output"></div>
 
-    <video id="demo" src="./asset/video/demo.mp4" autoplay loop muted preload="auto"></video>
+    <video id="demo" autoplay muted loop>
+      <source type="video/mp4" src="./asset/video/demo.mp4" />
+    </video>
 
     <script src="./js/main.js" async defer></script>
   </body>
