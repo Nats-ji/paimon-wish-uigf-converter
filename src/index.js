@@ -1,7 +1,7 @@
 let acorn = require("acorn");
 
 const APP = {
-  name: "Paimon Wish Convertor",
+  name: "Paimon Wish Converter",
   version: "1.0.0",
   uigf_version: "v2.2",
   base_id: "16657239000",

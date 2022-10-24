@@ -1,3 +1,4 @@
 node_modules/
 dist/
-paimon-wish-uigf-convertor.code-workspace
+.vscode/
+*.code-workspace
