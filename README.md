@@ -3,7 +3,7 @@
 ### Intro
 A web App that converts Genshin wish history from Paimon.moe format to UIGF format.
 
-在线转换Paimon.moe的抽卡记录格式到UIGF格式，以供导入到各种APP。
+在线转换派蒙站Paimon.moe的抽卡记录格式到UIGF格式，以供导入到各种APP。
 
 Codes are messy don't bother reading.
 
