@@ -11,7 +11,7 @@ Codes are messy don't bother reading.
 ```sh
 npm install && npm run build
 ```
-Live site: https://uigf.jenshin.gay
+Live site: https://uigf.mingmio.cc/
 
 ### Use
 1. Export data from the settings page of Paimon.moe
